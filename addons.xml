@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<addons><addon id="plugin.video.skygo.de" name="Skygo" provider-name="jojo" version="0.0.1">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.requests" version="2.9.1" />
+    <import addon="script.module.routing" version="0.2.0" />
+  </requires>
+  <extension library="default.py" point="xbmc.python.pluginsource">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_gb">Plugin for SkyGo</summary>
+    <description lang="en_gb">Allows you to stream all your content from german skygo. 
+    ***Attention: Addon is unofficial and not related to or supported by Sky Deutschland Fernsehen GmbH &amp; Co. KG***</description>
+    <disclaimer lang="en_gb" />
+    <language />
+    <platform>all</platform>
+    <license />
+    <forum />
+    <website />
+    <email />
+    <source />
+  </extension>
+</addon><addon id="repository.johtru.com" name="jojo Repository" provider-name="jojo" version="1.0.0">
+	<extension name="jojo" point="xbmc.addon.repository">
+		<info compressed="true">https://raw.githubusercontent.com/trummerjo/repository.johtru.com/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/trummerjo/repository.johtru.com/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/trummerjo/repository.johtru.com/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Kodi Repository from jojo.</summary>
+		<description>Kodi Repository from jojo.</description>
+		<disclaimer />
+		<platform>all</platform>
+	</extension>
+</addon></addons>
